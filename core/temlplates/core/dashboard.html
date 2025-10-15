@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="{% static 'images/favicon.ico' %}">
+
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>School Dashboard</h1>
+    <p>Total Students: {{ student_count }}</p>
+    <p>Total Classes: {{ classroom_count }}</p>
+    <p>Total Subjects: {{ subject_count }}</p>
+</body>
+</html>
